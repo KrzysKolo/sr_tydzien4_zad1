@@ -1,2 +1,2 @@
-Przeliczanie rachunku w restauracji
-<img src="demp.jpg" />
+Przeliczanie rachunku w restauracji<br />
+<img src="demo.jpg" />
