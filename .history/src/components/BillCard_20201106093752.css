@@ -1,0 +1,11 @@
+.billCard__wrapper {
+  width: 60vw;
+  height: 80vh;
+  background-image: url("./../image/calculator-385506_1920.jpg");
+  object-fit: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 10vh auto;
+}

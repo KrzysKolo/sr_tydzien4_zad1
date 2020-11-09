@@ -1,0 +1,31 @@
+.billCard__wrapper {
+  width: 40vw;
+  height: 90vh;
+  background: url("./../image/bill.jpg");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #7a7a7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh auto;
+}
+.billCard__header {
+  font-family: "Skranji", cursive;
+  font-size: 3rem;
+  color: rgb(253, 191, 0);
+  margin-top: 3rem;
+}
+.label__BillCard {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2rem;
+  color: rgb(253, 191, 0);
+  padding: 20px;
+}
+.form__items {
+  font-family: "Calligraffitti", cursive;
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+}

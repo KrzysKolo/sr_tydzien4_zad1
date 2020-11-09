@@ -1,0 +1,75 @@
+.billCard__wrapper {
+  width: 40vw;
+  height: 60vh;
+  background: url("./../image/bill.jpg");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #7a7a7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5vh auto;
+}
+.billCard__header {
+  font-family: "Skranji", cursive;
+  font-size: 3rem;
+  color: rgb(253, 191, 0);
+  margin-top: 1.5rem;
+}
+.billCard__section {
+  margin-top: 2rem;
+  height: 40%;
+  width: 90%;
+}
+.billCard__header h1 {
+  color: rgb(253, 191, 0);
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 0.8rem;
+}
+.billCard__section--background {
+  background-color: rgba(253, 191, 0, 0.07);
+  border-radius: 10px;
+  box-shadow: inset 3px 3px 5px black;
+}
+.billCard__section p {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 2rem;
+  margin: 2rem auto 0 auto;
+  color: rgb(253, 191, 0);
+
+  text-align: center;
+}
+.label__BillCard {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2rem;
+  color: rgb(253, 191, 0);
+  padding: 20px;
+}
+.form__items {
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+}
+.btn__BillCard {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2rem;
+  background-color: rgb(253, 191, 0);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5vh auto 2vh 25vw;
+  padding: 6px 20px;
+  transition: all ease-in-out 0.3s;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.btn__BillCard:hover {
+  background-color: rgba(253, 191, 0, 0.07);
+  color: rgb(253, 191, 0);
+}
+.billCard__footer {
+  color: rgb(253, 191, 0);
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+}

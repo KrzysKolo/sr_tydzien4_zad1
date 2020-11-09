@@ -1,0 +1,11 @@
+.billCard__wrapper {
+  width: 40vw;
+  height: 90vh;
+  background-image: url("./../image/money-256310_1920.jpg");
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 5vh auto;
+}

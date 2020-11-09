@@ -1,0 +1,60 @@
+.billCard__wrapper-funkcyjny {
+  width: 40vw;
+  height: 60vh;
+  background: url("./../image/rachunek.jpg");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #7a7a7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh auto;
+}
+.billCard__header-funkcyjny {
+  font-family: "Skranji", cursive;
+  font-size: 3rem;
+  color: rgb(242, 235, 213);
+  margin-top: 1.5rem;
+}
+.billCard__header-funkcyjny h1 {
+  color: rgb(242, 235, 213);
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.billCard__section-funkcyjny {
+  margin-top: 2rem;
+  height: 40%;
+  width: 90%;
+}
+.label__BillCard-funkcyjny {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2rem;
+  color: rgb(242, 235, 213);
+  padding: 20px;
+}
+.form__items {
+  font-size: 1rem;
+  padding: 5px;
+  margin-top: 10px;
+}
+.btn__BillCard-funkcyjny {
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 1.2rem;
+  background-color: rgb(242, 235, 213);
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5vh auto 2vh 25vw;
+  padding: 6px 20px;
+  transition: all ease-in-out 0.3s;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+.btn__BillCard-funkcyjny:hover {
+  background-color: rgba(253, 191, 0, 0.07);
+  color: rgb(242, 235, 213);
+}
+.billCard__footer-funkcyjny {
+}

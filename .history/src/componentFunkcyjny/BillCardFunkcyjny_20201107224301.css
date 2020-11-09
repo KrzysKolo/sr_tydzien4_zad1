@@ -1,0 +1,26 @@
+.billCard__wrapper-funkcyjny {
+  width: 40vw;
+  height: 60vh;
+  background: url("./../image/rachunek.jpg");
+  background-size: cover;
+  border: 3px solid black;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px #7a7a7a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10vh auto;
+}
+.billCard__header-funkcyjny {
+  font-family: "Skranji", cursive;
+  font-size: 3rem;
+  color: rgb(242, 235, 213);
+  margin-top: 1.5rem;
+}
+.billCard__header-funkcyjny h1 {
+  color: rgb(242, 235, 213);
+  font-family: "Shadows Into Light Two", cursive;
+  font-size: 0.8rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
